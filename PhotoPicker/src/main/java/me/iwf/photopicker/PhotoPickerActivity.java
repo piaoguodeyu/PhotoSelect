@@ -19,7 +19,6 @@ import me.iwf.photopicker.fragment.ImagePagerFragment;
 import me.iwf.photopicker.fragment.PhotoPickerFragment;
 import me.iwf.photopicker.utils.CameraKeys;
 
-import static android.widget.Toast.LENGTH_LONG;
 
 public class PhotoPickerActivity extends AppCompatActivity {
 
@@ -94,7 +93,7 @@ public class PhotoPickerActivity extends AppCompatActivity {
 
                 if (selectedItemCount > maxCount) {
                     Toast.makeText(getActivity(), getString(R.string.__picker_over_max_count_tips, maxCount),
-                            LENGTH_LONG).show();
+                            Toast.LENGTH_LONG).show();
                     return false;
                 }
                 if (maxCount > 1) {

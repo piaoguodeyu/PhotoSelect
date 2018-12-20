@@ -229,7 +229,7 @@ public class PhotoPickerFragment extends Fragment {
     private void openCamera() {
         try {
             Intent intent = captureManager.dispatchTakePictureIntent();
-            startActivityForResult(intent, ImageCaptureManager.REQUEST_TAKE_PHOTO);
+            startActivityForResult(intent, CameraKeys.REQUEST_TAKE_PHOTO);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ActivityNotFoundException e) {
@@ -239,7 +239,7 @@ public class PhotoPickerFragment extends Fragment {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == ImageCaptureManager.REQUEST_TAKE_PHOTO && resultCode == RESULT_OK) {
+        if (requestCode == CameraKeys.REQUEST_TAKE_PHOTO && resultCode == RESULT_OK) {
 
             if (captureManager == null) {
                 FragmentActivity activity = getActivity();

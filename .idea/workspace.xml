@@ -15,35 +15,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3b21c68-7dc6-4dd9-a776-80598c80804a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/utils/CameraKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/an/myphotodemo/recyclerutil/DividerGridItemDecoration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/an/myphotodemo/recyclerutil/DividerItemDecoration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/an/myphotodemo/recyclerutil/DividerItemDecorationCommon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/divider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/divider_vertical.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GlideLibs/GlideLibs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GlideLibs/GlideLibs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoPicker/PhotoPicker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoPicker/PhotoPicker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoPicker/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoPicker/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/PhotoPicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/PhotoPicker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/PhotoPickerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/PhotoPickerActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/fragment/PhotoPickerFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/fragment/PhotoPickerFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/an/myphotodemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/an/myphotodemo/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/an/myphotodemo/adapter/NinePhotoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/an/myphotodemo/adapter/NinePhotoAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/utils/CameraKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/utils/CameraKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/utils/ImageCaptureManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/utils/ImageCaptureManager.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -95,8 +70,8 @@
       <file leaf-file-name="PhotoPicker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/PhotoPicker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1809">
-              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="-130">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding>
                 <element signature="e#538#539#0" expanded="true" />
                 <element signature="e#585#586#0" expanded="true" />
@@ -107,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhotoPickerActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PhotoPickerActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/PhotoPickerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5157">
-              <caret line="194" column="13" lean-forward="true" selection-start-line="194" selection-start-column="13" selection-end-line="194" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2218#2241#0" expanded="true" />
@@ -120,11 +95,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhotoPickerFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PhotoPickerFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/fragment/PhotoPickerFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1488">
-              <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+            <state relative-caret-position="24">
+              <caret line="223" column="11" lean-forward="true" selection-start-line="223" selection-start-column="11" selection-end-line="223" selection-end-column="11" />
+              <folding>
+                <element signature="e#4456#4909#0" expanded="true" />
+                <element signature="e#4908#4909#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhotoGridAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/adapter/PhotoGridAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="204" column="3" lean-forward="true" selection-start-line="204" selection-start-column="3" selection-end-line="204" selection-end-column="3" />
+              <folding>
+                <element signature="e#6758#6759#0" expanded="true" />
+                <element signature="e#6794#6795#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageCaptureManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/utils/ImageCaptureManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -132,8 +133,8 @@
       <file leaf-file-name="CameraKeys.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/utils/CameraKeys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="315">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -163,22 +164,26 @@
       <find>final static</find>
       <find>EXTRA_MAX_COUNT</find>
       <find>mPickerOptionsBundle</find>
-      <find>public final static</find>
       <find>originalPhotos</find>
-      <find>PhotoPicker.REQUEST_CODE</find>
       <find>REQUEST_CODE</find>
       <find>EXTRA_ORIGIN</find>
       <find>DEFAULT_MAX_COUNT</find>
       <find>EXTRA_PREVIEW_ENABLED</find>
+      <find>PhotoPicker.REQUEST_CODE</find>
+      <find>EXTRA_SHOW_GIF</find>
+      <find>public final static</find>
       <find>KEY_SELECTED_PHOTOS</find>
+      <find>ImageCaptureManager.REQUEST_TAKE_PHOTO</find>
     </findStrings>
     <replaceStrings>
-      <replace>CameraKeys</replace>
-      <replace>CameraKeys.REQUEST_CODE</replace>
       <replace>REQUEST_CODE</replace>
       <replace>CameraKeys.EXTRA_ORIGIN</replace>
       <replace>CameraKeys.EXTRA_PREVIEW_ENABLED</replace>
+      <replace>CameraKeys.REQUEST_CODE</replace>
+      <replace>CameraKeys.EXTRA_SHOW_GIF</replace>
+      <replace>CameraKeys</replace>
       <replace>CameraKeys.KEY_SELECTED_PHOTOS</replace>
+      <replace>CameraKeys.REQUEST_TAKE_PHOTO</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -4430,16 +4435,17 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/an/myphotodemo/recyclerutil/DividerItemDecorationCommon.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/divider.xml" />
         <option value="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/CameraKeys.java" />
-        <option value="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/utils/CameraKeys.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/an/myphotodemo/MainActivity.java" />
         <option value="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/PhotoPicker.java" />
         <option value="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/PhotoPickerActivity.java" />
+        <option value="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/utils/CameraKeys.java" />
         <option value="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/fragment/PhotoPickerFragment.java" />
+        <option value="$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/utils/ImageCaptureManager.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="60" />
+    <option name="y" value="47" />
     <option name="width" value="1280" />
     <option name="height" value="701" />
   </component>
@@ -4658,7 +4664,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="60" width="1280" height="701" extended-state="0" />
+    <frame x="0" y="47" width="1280" height="701" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" />
@@ -4676,7 +4682,7 @@
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22859451" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22859451" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.15834768" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -4870,13 +4876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/utils/CameraKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/an/myphotodemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -4901,8 +4900,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/PhotoPicker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1809">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="-130">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding>
             <element signature="e#538#539#0" expanded="true" />
             <element signature="e#585#586#0" expanded="true" />
@@ -4912,21 +4911,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/PhotoPickerActivity.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/27.0.2/659085cb974e7ec1f25451d23f11578332ea0d7e/support-fragment-27.0.2-sources.jar!/android/support/v4/app/Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5157">
-          <caret line="194" column="13" lean-forward="true" selection-start-line="194" selection-start-column="13" selection-end-line="194" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2218#2241#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="917" lean-forward="true" selection-start-line="917" selection-end-line="917" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/utils/CameraKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/fragment/PhotoPickerFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1488">
-          <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+        <state relative-caret-position="24">
+          <caret line="223" column="11" lean-forward="true" selection-start-line="223" selection-start-column="11" selection-end-line="223" selection-end-column="11" />
+          <folding>
+            <element signature="e#4456#4909#0" expanded="true" />
+            <element signature="e#4908#4909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/adapter/PhotoGridAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="204" column="3" lean-forward="true" selection-start-line="204" selection-start-column="3" selection-end-line="204" selection-end-column="3" />
+          <folding>
+            <element signature="e#6758#6759#0" expanded="true" />
+            <element signature="e#6794#6795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/utils/ImageCaptureManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhotoPicker/src/main/java/me/iwf/photopicker/PhotoPickerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2218#2241#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
