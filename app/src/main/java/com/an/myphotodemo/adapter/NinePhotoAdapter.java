@@ -1,8 +1,6 @@
 package com.an.myphotodemo.adapter;
 
 import android.content.Context;
-import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -17,10 +15,8 @@ import java.util.List;
  * created by zhangxiaowei on 2018/12/19 4:41 PM
  */
 public class NinePhotoAdapter extends BaseRecyclerAdp<String, NinePhotoAdapter.ViewHolder> {
-    private boolean showAdd = true;
     private int picturnNum = 9;
-    private boolean isDelete = false;//当前是否显示删除按钮
-    private boolean isAdd = true;//当前是否显示添加按钮
+    private boolean showAdd = true;//当前是否显示添加按钮
 
     public NinePhotoAdapter(Context context, List<String> beans) {
         super(context, beans);
@@ -32,16 +28,14 @@ public class NinePhotoAdapter extends BaseRecyclerAdp<String, NinePhotoAdapter.V
      */
     public void initAdd() {
         if (getItemCount() < picturnNum) {
-            isAdd = true;
+            showAdd = true;
             if (mData.contains(KeyUtil.empty)) {
                 return;
             }
             addAt(getItemCount(), KeyUtil.empty);
-//            notifyDataSetChanged();
         } else {
-            isAdd = false;
+            showAdd = false;
         }
-//        notifyDataSetChanged();
     }
 
     @Override
@@ -71,20 +65,6 @@ public class NinePhotoAdapter extends BaseRecyclerAdp<String, NinePhotoAdapter.V
         addItemView(R.layout.item_grid_photo);
     }
 
-    /**
-     * 移除add按钮
-     */
-    public void autoHideShowAdd() {
-        int lastPosition = getItemCount() - 1;
-        if (lastPosition == picturnNum && mData.get(lastPosition) != null && KeyUtil.empty.equals(mData.get(lastPosition))) {
-            mData.remove(lastPosition);
-            isAdd = false;
-            notifyDataSetChanged();
-        } else if (!isAdd) {
-            initAdd();
-        }
-    }
-
 
     @Override
     public void onBindViewHolder(NinePhotoAdapter.ViewHolder holder, final String url, int position, int viewType) {
@@ -96,25 +76,6 @@ public class NinePhotoAdapter extends BaseRecyclerAdp<String, NinePhotoAdapter.V
             holder.imgDelete.setVisibility(View.VISIBLE);
             ImageLoaderUtils.display(mContext, holder.imageView, url);
         }
-
-
-//        holder.imageView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                //再次选择图片
-//                if (TextUtils.isEmpty(url)) {
-//                    if (onClickAddListener != null) {
-//                        onClickAddListener.onClickAdd(position);
-//                    }
-//                } else {
-//                    //放大查看图片
-//
-//                    onItemClickListener.onItemClick(position);
-//                    Log.i(TAG, "onClick: " + position);
-//                    //BigImagePagerActivity.startImagePagerActivity((Activity) mContext, getData(), position);
-//                }
-//            }
-//        });
         //删除按钮
         holder.imgDelete.setOnClickListener(new View.OnClickListener() {
             @Override

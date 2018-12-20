@@ -1,5 +1,6 @@
 package com.an.myphotodemo;
 
+import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +12,7 @@ import com.an.myphotodemo.adapter.BaseRecyclerAdp;
 import com.an.myphotodemo.adapter.NinePhotoAdapter;
 import com.an.myphotodemo.adapter.NinePicturesAdapter;
 import com.an.myphotodemo.image.ImagePagerActivity;
+import com.an.myphotodemo.recyclerutil.DividerGridItemDecoration;
 import com.an.myphotodemo.util.KeyUtil;
 
 import java.util.ArrayList;
@@ -18,6 +20,7 @@ import java.util.List;
 
 import me.iwf.photopicker.PhotoPicker;
 import me.iwf.photopicker.PhotoPreview;
+import me.iwf.photopicker.utils.CameraKeys;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -43,7 +46,11 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        DividerGridItemDecoration itemDecoration = new DividerGridItemDecoration(this);
+        recyclerView.addItemDecoration(itemDecoration);
         recyclerView.setAdapter(ninePhotoAdapter);
+
 
     }
 
@@ -78,7 +85,8 @@ public class MainActivity extends AppCompatActivity {
                 .setShowCamera(true)
 //                .setShowGif(true)
                 .setPreviewEnabled(false)
-                .start(this, PhotoPicker.REQUEST_CODE);
+                .setSelected(ninePhotoAdapter.getData())
+                .start(this, CameraKeys.REQUEST_CODE);
 
 
 //        PhotoPickerIntent intent = new PhotoPickerIntent(MainActivity.this);
@@ -104,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         if (resultCode == RESULT_OK &&
-                (requestCode == PhotoPicker.REQUEST_CODE || requestCode == PhotoPreview.REQUEST_CODE)) {
+                (requestCode == CameraKeys.REQUEST_CODE || requestCode == PhotoPreview.REQUEST_CODE)) {
 
             List<String> photos = null;
             if (data != null) {
